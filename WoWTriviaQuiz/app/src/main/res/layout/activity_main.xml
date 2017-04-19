@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:windowSoftInputMode="stateAlwaysHidden"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.wowtriviaquiz.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            style="@style/QuestionTextStyle"
+            android:text="1. In his Shaman's PVP GUIDE(Quebec), what advice(s) did Halbrium give for fighting Druids?"/>
+
+            <CheckBox
+                android:id="@+id/windfurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pray that you receive the excellence of windfury! You will be so sweet and set! When you get 10,000 DMG!"/>
+
+            <CheckBox
+                android:id="@+id/devil_horse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purge his devil horse."/>
+
+            <CheckBox
+                android:id="@+id/animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OH NO WHY IS ANIMALS ON MY FACE?!"/>
+
+            <CheckBox
+                android:id="@+id/main_god"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" This is a fight for people who are not afraid to anger the main god."/>
+
+            <CheckBox
+                android:id="@+id/bear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHACK THAT BEAR LIKE YOU HAVENT A CARE!!!!!!!"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="2. Did Kralnor say &quot;My staff is a good one.&quot;?"/>
+
+            <RadioGroup
+                android:id="@+id/kralnor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/no"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+            </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="3. Which character said the quote: &quot;FREE HOARS (not the sexy kind LOL!) the ones you use a saddal with.&quot;?"/>
+
+            <EditText
+                android:id="@+id/hoars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="textCapWords" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="4. CAT DURID IS 4 FITE!"/>
+
+            <RadioGroup
+                android:id="@+id/druid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/hamuul"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hamuul Runetotem" />
+
+                <RadioButton
+                    android:id="@+id/alamo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ALAMO!!" />
+
+            </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="5. Leeroy?"/>
+
+            <EditText
+                android:id="@+id/leeroy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="textCapWords" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="6. Varok Saurfang is the ingame representation of?"/>
+
+        <RadioGroup
+            android:id="@+id/saurfang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/norris"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chuck Norris" />
+
+            <RadioButton
+                android:id="@+id/mrt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mr. T" />
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="7. Lieutenant General Andorov is also known as?"/>
+
+            <RadioGroup
+                android:id="@+id/andorov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/pants"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Captain No Pants" />
+
+                <RadioButton
+                    android:id="@+id/shirt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Captain No Shirt" />
+
+            </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="8. John J. Keeshan is a reference to?"/>
+
+            <RadioGroup
+                android:id="@+id/keeshan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/toretto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dom Toretto" />
+
+                <RadioButton
+                    android:id="@+id/rambo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="John Rambo" />
+
+            </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="9. What was the worst thing about the Barrens?"/>
+
+            <EditText
+                android:id="@+id/barrens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="textCapSentences" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/QuestionTextStyle"
+            android:text="10. Which character is shown on the Goblin Shredder Display?"/>
+
+        <RadioGroup
+            android:id="@+id/shredder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/kerrigan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Sarah Kerrigan" />
+
+            <RadioButton
+                android:id="@+id/jaina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Jaina Proudmore" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            style="@style/QuestionTextStyle"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:onClick="reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reset"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:onClick="submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
